@@ -1,0 +1,39 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1em;
+    letter-spacing: 3px;
+}
+
+h1{
+    font-size: 2em;
+    color: beige;
+}
+input[type="text"]{
+    width: 20em;
+    padding: 1em;
+    font-size: 1em;
+}
+#inhalt{
+    color: green;
+}
+#inhalt2{
+    color: red;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+  background-color: salmon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#vorTeil{
+    color: green;
+    font-size: 2em;
+}
+#nachTeil{
+    color: red;
+    font-size: 2em;
+}

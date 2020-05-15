@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <section class="container">
+        
+        <form action="javascript:work();">
+            
+             <label for="">the Satz:</label>
+           <div>
+               <input id="inhalt" type="text">
+           </div>
+           
+           <label for="">from where begin the separat:</label>
+           <div>
+               <input id="inhalt2" type="text">
+           </div>
+
+           <div>
+               <input id="davor" type="radio" name="auswahl" checked > cut befor
+           </div>
+           <div>
+               <input id="danach" type="radio" name="auswahl">cut after
+           </div>
+        
+            <input type="submit" value="Daten senden">separate</input>
+        
+            <div> 
+                <h3>Front Teil</h3>
+                <p id="vorTeil"></p>
+            </div>
+            <div>
+                <h3>Back Teil</h3>
+                <p id="nachTeil"></p>
+            </div>
+        
+        </form>
+    </section>
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
